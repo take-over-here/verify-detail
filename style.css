@@ -1,0 +1,96 @@
+/* Basic reset */
+body, h1, h2, p, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container for centering content */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #4267B2; /* Meta's primary color */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Main content styling */
+main {
+    padding: 20px 0;
+}
+
+.appeal-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.appeal-form h2 {
+    margin-bottom: 20px;
+}
+
+.appeal-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.appeal-form input, .appeal-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.appeal-form button {
+    background: #4267B2;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.appeal-form button:hover {
+    background: #365899;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
